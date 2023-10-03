@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder!</title>
+
+    <link rel="icon" href="images/coder.png" type="image/icon type">
+
+    <!-- box icon-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!--header design-->
+    <header class="header">
+      <a href="#" class="logo">Coder!</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mintesnot</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>Mintesnot is a versatile software engineer with expertise in 
+          Data Science, Data Engineering, and a wide range of programmi
+          ng languages including Php, Python, JavaScript, Java, and .
+          Net. His passion for MLOps and proficiency in both frontend
+           and backend development make him a valuable asset in the tech industry.</p>
+        <div class="social-media">
+          <a href="https://t.me/minte_b"><i class='bx bxl-telegram' ></i></a>
+          <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="https://www.linkedin.com/in/mintesnot-bekele-018b301bb/"><i class='bx bxl-linkedin' ></i></a>
+          <a href="mailto:mintesnot.bekele$@gmail.com"><i class='bx bxl-gmail' ></i></a>
+        </div>
+        <a href="Resume/Mintesnot_Mekonen_Bekele.pdf" class="btn" download>Download CV</a>
+      </div>
+      <div class="home-img">
+        <img class="profile_one" src="images/home_img.png" alt="">
+      </div>
+    </section>
+    <!--about section design-->
+
+    <section class="about" id="about">
+
+      <div class="about-img">
+
+        <img class="profile_two" src="images/home_profile.png" alt="">
+
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Project Manager.!</h3>
+
+        <p> I am an innovative Software Engineer and IT Lead with
+           four years of experience and particular proficiency in 
+           the management of operating systems, core networking 
+           solutions, and IT infrastructure projects. 
+           I am committed to leading teams in the implementation of advanced 
+            systems to meet business objectives and improve struct
+            ure and<span id="dots">...</span> <span id="more">efficiency. I have 
+              comprehensive technical capabilities with strong knowledge of 
+              graphics design,front-end development, back-end development, Android 
+            development, and embedded systems.</span></p>
+            <!--<a href="#"  onclick="myFunction()" class="btn myBtn">Read More</a>-->
+        
+        <button onclick="myFunction()" class="btn" id="myBtn">Read More</button>
+      </div>
+    </section>
+
+    <!--service section design-->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3>Software Engineering</h3>
+          <p>I specialize in strategic planning, designing,
+             developing, and scaling world-class custom software
+              solutions efficiently. Through a consulting-led 
+              approach, I take <span id="dots_one">...</span> 
+              <span id="more_one">responsibility for delivering 
+                outcomes and enhancing business performance 
+                across multiple industry verticals.</span> </p>
+                <!--<a href="#" class="btn">Read More</a>  -->
+                <button onclick="softWare()" class="btn" id="myBtn_one">Read More</button>
+                
+        </div>
+
+        <div class="services-box">
+          <i class='bx bx-bar-chart-alt'></i>
+          <h3>Digital Marketing</h3>
+          <p>My goal is to help clients achieve their goals through 
+            disruptive marketing and advertising solutions. I provide
+             a comprehensive range of digital marketing services to 
+             ensure the success of my clients. Wh<span id="dots_two">...</span><span id="more_two">ether it's high-growth startups 
+                or established enterprises, I discover innovative
+                 ways to help scale their businesses.</span> </p>
+               <!--<a href="#" class="btn">Read More</a>-->
+               <button  onclick="digitalMarketing()"  class="btn" id="myBtn_two">Read More</button>
+          
+        </div>
+
+        <div class="services-box">
+          <i class='bx bxs-paint'></i>
+          <h3>Graphics Designing</h3>
+          <p>I design brands to have a global and local impact,
+             covering graphics, identity, strategy, positioning,
+              products, packaging, exhibitions, installations,
+              websites, digital experiences, advertising, communications, 
+              data vis<span id="dots_three">...</span><span id="more_three">ualizations, typefaces, sound, and motion.
+              </span></p>
+             <!--<a href="#" class="btn">Read More</a>-->
+             <button onclick="graphicsDesign()" class="btn" id="myBtn_three">Read More</button>
+          
+        </div>
+
+
+      </div>
+    </section>
+
+    <!--portfolio section design-->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/new_sys.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>System Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/new_sw.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>DevOps Operation</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/New_Android.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Mobile Apps</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/new_web.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/new_graph.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Graphics Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img class="new_pro" src="images/new_market.jpg" alt="">
+          <div class="portfolio-layer">
+            <h4>Degital Market</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptatibus qui. Earum omnis odio saepe qui veniam id facilis, dolorem fuga minus placeat neque asperiores eos quaerat iste </p>
+            <a href="comingsoon.mp4"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!--Contact section design-->
+
+   <!--Contact section design-->
+
+   <section class="contact" id="contact">
+    <h2 class=" heading">Contact <span>Me!</span></h2>
+    <!-- action="#" -->
+    <form action="mailto:dotnetminte@gmail.com" method="post" enctype="text/plain">
+      <div class="input-box">
+        <input type="text" name="" placeholder="Full Name" disabled required>
+        <input type="email" name="email" placeholder="Email Address"  disabled required>
+      </div>
+      <div class="input-box">
+        <input type="number" name="num" placeholder="Mobile Number" disabled>
+        <input type="text" name="sub" placeholder="Email Subject" disabled required>
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"  disabled></textarea>
+      <input type="submit" value="Send Message" class="btn" disabled>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Mintesnot Mekonen (Coder !) | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+    
+
+    <!-- Scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      
+      <!--Smtp message-->
+      
+
+      <!--Function of SMTP-->
+
+    <!--custom js-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
